@@ -223,4 +223,3 @@ int qq() {
         }
     }
 }
-//mellim gel sennen bi dene mosnu razborka eliyey udarsam 100 xal vermel=
