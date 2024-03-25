@@ -4,7 +4,7 @@
 #include <math.h>
 #define PI 3.14159
 
-void mainMenu(bool *state); // Correcting function signature
+void mainMenu(bool *state);
 void math();
 void pythagoreanTheorem();
 void circleArea();
@@ -140,7 +140,7 @@ void physics() {
         printf("*        2- Ohm's Law                        *\n");
         printf("*        3- Back to Main Menu                 *\n");
         char choice = getInput("Select:");
-        int option = choice - '0'; // Convert character to integer
+        int option = choice - '0'; 
         switch (option) {
             case 1:
                 printf("\n***** Newton's Second Law of Motion *****\n");
@@ -181,7 +181,7 @@ double newtonsSecondLaw(double mass, double acceleration) {
 double ohmsLaw(double voltage, double current) {
     if (current == 0) {
         printf("Error: Cannot divide by zero (current is zero)\n");
-        return NAN; // Return NaN (Not a Number) for invalid input
+        return NAN; 
     }
     return voltage / current;
 }
