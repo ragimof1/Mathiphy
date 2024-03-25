@@ -187,21 +187,30 @@ double ohmsLaw(double voltage, double current) {
 }
 
 void showHelp() {
-    printf("***********************************************\n");
-    printf("*                 Help Section                *\n");
-    printf("***********************************************\n");
-    printf("Mathiphy provides access to important\n");
-    printf("mathematical and physics functions.\n");
-    printf("\n");
-    printf("To use the application, select an option from\n");
-    printf("the main menu:\n");
-    printf("1. Choose '1' for important math functions.\n");
-    printf("2. Choose '2' for important physics functions.\n");
-    printf("3. Choose '3' to display this help section.\n");
-    printf("\n");
-    printf("After selecting an option, follow the prompts\n");
-    printf("to input necessary data and view the results.\n");
-    printf("\n");
+    void showHelp() {
+        printf("***********************************************\n");
+        printf("*                 Help Section                *\n");
+        printf("***********************************************\n");
+        printf("Mathiphy is a versatile application designed to assist users with mathematical and physics-related tasks. Below is an overview of the available functions:\n\n");
+
+        printf("Math Functions:\n");
+        printf("1. The Pythagorean Theorem: Calculate the length of the hypotenuse of a right triangle given the lengths of the two other sides.\n");
+        printf("2. Circle Area: Calculate the area of a circle based on its radius.\n");
+        printf("3. Volume of a Sphere: Compute the volume of a sphere based on its radius.\n\n");
+
+        printf("Physics Functions:\n");
+        printf("1. Newton's Second Law of Motion: Calculate the force exerted on an object based on its mass and acceleration.\n");
+        printf("2. Ohm's Law: Determine the resistance of a circuit component based on the voltage across it and the current flowing through it.\n\n");
+
+        printf("To use Mathiphy, select an option from the main menu and follow the prompts to input necessary data and view the results.\n\n");
+        printf("1. Choose '1' for important math functions.\n");
+        printf("2. Choose '2' for important physics functions.\n");
+        printf("3. Choose '3' to display this help section.\n\n");
+
+        printf("Enjoy using Mathiphy to streamline your calculations and enhance your understanding of mathematical and physical concepts!\n");
+        printf("\n");
+    }
+
 }
 
 int qq() {
